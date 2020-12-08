@@ -1,0 +1,34 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #DCDCDC	;
+}
+#sidebar {
+    margin: 10px;
+    background-color: #a1a1a191;
+    border-radius: 20px;
+}
+
+#img-logo {
+    object-position: center;
+ 
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    position: relative;
+    float: right;
+    bottom: 55px;
+    text-shadow: 1px #000000af;
+    color: rgba(0, 0, 0, 0.884);
+}
+ .menu a:hover{
+     color: red;
+ }
