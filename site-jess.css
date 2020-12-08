@@ -14,21 +14,46 @@ body {
     border-radius: 20px;
 }
 
-#img-logo {
-    object-position: center;
+.img-logo {
+   display: block;
  
+}
+.imagemlogo {
+     margin: 8px;
+ }
+#menuu {
+    height: 100%;
+    width: 100% auto;
 }
 
 .menu a{
     text-decoration: none;
-    padding: 15px;
+    padding: 20px;
     display: inline-block;
     position: relative;
     float: right;
-    bottom: 55px;
+    bottom: 70px;
     text-shadow: 1px #000000af;
     color: rgba(0, 0, 0, 0.884);
 }
  .menu a:hover{
      color: red;
+ }
+
+ @media screen and (max-width:867px) {
+
+    .menu {
+        display: flex;
+        text-align: center;
+        margin-top: 45px;
+    }
+    .img-logo {
+        text-align: center;
+    }
+
+    #imagemlogo {
+        float: none;
+        display: inline-block;
+    }
+
  }
