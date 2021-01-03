@@ -31,13 +31,24 @@ header{
 .logotipo {
     width: 300px;
     height: auto;
+    margin:10px;
 }
 
 .menu {
-    
     display: flex;
+ 
+}
+
+.menu a {
+    color: black;
+    text-shadow: rgba(0, 0, 0, 0.13) 1px 1px ;
+}
+.menu a:hover {
+    color: rgba(0, 0, 0, 0.589);
 }
 
 li {
-    padding: 35px;
+    padding: 10px;
 }
+
+
