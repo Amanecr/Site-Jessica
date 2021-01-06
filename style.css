@@ -11,23 +11,35 @@ body,ul,li,p {
     font-size: 1.2rem;
     font-family: Arial;
 }
+
 a{
     text-decoration: none;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #dfdfdf;
 }
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr 1fr;
+}
+
 header{
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    width: auto;
     background-color: #00000030;
     border-radius: 15px;
     margin: 30px;
-    width: auto;
+    grid-column-start: 1;
+    grid-column-end: 5;
 }
 
 .logotipo {
@@ -38,7 +50,7 @@ header{
 
 .menu {
     display:flex;
-    margin-right: 30px;
+    margin-right: 40px;
  
 }
 
