@@ -9,113 +9,49 @@
 }
 /* BODY */
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Baloo Tamma 2", Geneva, Tahoma, sans-serif;
     background-color: #dfdfdf;
-    word-spacing: 1px;
 }
 
 /* MENU */
-.container {
+header {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #bfbfbf;
 }
 
-.container img {
-    width: 250px;
-    margin: 15px;
-    
-}
 .logo {
-    margin-left: 20px;
+    margin: 4px 25px ;
+}
+
+.logotipo {
+    max-width: 300px;
 }
 
 .menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
     display: flex;
-    position: relative;
-    background-color: rgb(184, 184, 184);
-    margin: 10px 30px;
-    border-radius: 20px;
-    width: 100%;
-    text-align: center;
-}
-
-.menu-links {
-    padding: 40px;
-    margin-left: 30px;
-}
-
-
-.link { 
-    color: rgb(70, 70, 70);
-    padding: 30px;
-    
-}
-.link:hover {
-   color: rgb(0, 0, 0);
-}
-
-/* SOBRE MIM */
-.container1 {
-    margin: 30px;
-    border: double 10px rgb(110, 110, 110);
-    display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    border-radius: 30px;
-    text-align: center;
 }
 
-article {
-    display: flex;
-}
-.container1 img {
-    width: 350px;
-    margin: 80px 25px 80px 80px;
-    border-radius: 200px;
-    border: 1px solid rgb(29, 29, 29);
-}
-
-.sobre {
-    padding: 20px 80px 130px 30px;
-}
-
-/* PERGUNTAS FREQUENTES */
-main {
-    text-align: center;
-    width: 100%;
-}
-
-.duvidas {
-    margin: 30px 30px 50px 30px;
-    border: double 10px rgb(110, 110, 110);
-    display: flex;
-    border-radius: 30px;
-    flex-direction: column ;
-    text-align: center;
-}
-
-.question {
-    /* border-bottom: 1px solid #ccc; */
-   padding: 8px;
-    
-  }
-  .answer {
-      margin: 5px 100px;
-  }
-  
-  .question input,
-  .question .answer { display: none }
-  
-  .question label {
-    display: inline-block;
-    font-weight: bold;
-    margin: 7px;
-    width: 100%;
-  }
-  
-  .question input:checked ~ .answer {
+.menu a {
+    color: black;
+    font-size: 1.18em;
+    margin: 0 15px;
     display: block;
-  }
+    padding: 10px;
+}
 
+.menu a:hover {
+    color:#555555;
+}
 
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+}
 
