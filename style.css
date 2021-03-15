@@ -10,7 +10,7 @@
 /* BODY */
 body {
     font-family: "Baloo Tamma 2", Geneva, Tahoma, sans-serif;
-    background-color: #dfdfdf;
+    background-color: #c7c7c7ce;
 }
 
 /* MENU */
@@ -60,3 +60,131 @@ header {
         width: 100%;
     }
 }
+
+.botao-wpp {
+   display: flex;
+   position: fixed;
+   background-color: #25b366;
+   font-size: 40px;
+   bottom: 40px;
+   right: 40px;
+   width: 60px;
+   height: 60px;
+   border-radius: 50px;
+   text-align: center;
+   box-shadow: 1px 1px 2px #888;
+   z-index: 1000;
+}
+
+.fa-whatsapp {
+    color: white;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+
+
+
+/*Sobre mim*/
+
+.sobremim {
+    margin: 30px 30px 50px 30px;
+    border: 10px double rgb(110, 110, 110);
+    border-radius: 30px;
+    display: flex;  
+    justify-content: space-around;
+}
+
+
+.foto {
+    max-width: 350px;           /* DEIXAR A IMAGEM RESPONSIVA*/
+    width: 100%;                /* DEIXAR A IMAGEM RESPONSIVA*/
+    min-height: auto;                /* DEIXAR A IMAGEM RESPONSIVA*/
+    border-radius: 300PX;
+}   
+
+.foto-sobremim {
+    margin: 30px;
+}
+
+.descricao-sobremim{
+    margin: 30px;
+    align-self: center;
+    width: 800px;
+    flex-wrap: wrap;
+}
+
+.descricao-sobremim p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.18em;
+}
+
+/* Perguntas frequentes */
+
+
+.perguntasfrequentes {
+    margin: 30px 30px 50px 30px;
+    border-radius: 30px;
+    border: 10px double rgb(110, 110, 110);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column  ;
+    text-align: center;
+}
+
+.pergunta {
+    font-size: 1.25em;
+}
+
+.question {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0
+  }
+  
+  .question input,
+  .question .answer { display: none }
+  
+  .question label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%
+  }
+  
+  .question input:checked ~ .answer {
+    display: block
+  }
+
+
+
+  /* Contato */
+
+  .contato {
+      margin: 30px 30px 50px 30px;
+      border: 10px double rgb(110, 110, 110);
+      border-radius: 30px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .contatogeral {
+      padding: 20px;
+      width: 100%;
+    text-align: center;
+}
+  
+
+
+
+  /*margin: 30px 30px 50px 30px;
+border: double 10px rgb(110, 110, 110);
+display: flex;
+border-radius: 30px;
+flex-direction: column ;
+text-align: center;
+
+
+ margin: 30px 30px 50px 30px;
+    border: 10px double rgb(110, 110, 110);
+    border-radius: 30px;*/
