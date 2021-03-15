@@ -36,6 +36,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    
 }
 
 .menu a {
@@ -55,9 +56,9 @@ header {
     flex-wrap: wrap;
 }
  
-@media (300px) {
-    .menu {
-        width: 100%;
+@media (660px) {
+    .menu ul {
+        align-items: center;
     }
 }
 
@@ -92,6 +93,7 @@ header {
     border: 10px double rgb(110, 110, 110);
     border-radius: 30px;
     display: flex;  
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -120,6 +122,11 @@ header {
     font-size: 1.18em;
 }
 
+@media (880px) {
+
+    
+
+}
 /* Perguntas frequentes */
 
 
