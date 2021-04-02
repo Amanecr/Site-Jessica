@@ -10,15 +10,17 @@
 /* BODY */
 body {
     font-family: "Baloo Tamma 2", Geneva, Tahoma, sans-serif;
-    background-color: #dcdcdc;
+    
 }
+
+section {}
 
 /* MENU */
 header {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: #bfbfbf;
+    justify-content: space-between;
+    background-color: pink;
 }
 
 .logo {
@@ -29,38 +31,74 @@ header {
     max-width: 300px;
 }
 
-.menu {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 15px 0;
+.redes-sociais {
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociais p {
+    margin: 15px;
+    padding: 15px;
+}
+
+/* 1 seção */
+.primeira {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.primeira img {
+    max-width: 400px;
+    margin-top: 75px;
+}
+
+.primeira a {
+    display: flex;
+    background-color: pink;
+    font-size: 2em;
+    
+    justify-content: center;
+    color: white;    
+    height: 50px;
+    width: 190px;
+}
+
+.bloco {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.botao {
+    margin: -40px;
+    display: flex;
     
 }
 
-.menu a {
-    color: black;
-    font-size: 1.18em;
-    margin: 0 15px;
-    display: block;
-    padding: 10px;
-}
+/* parte 2 */ 
 
-.menu a:hover {
-    color:#555555;
-}
-
-.menu ul {
+.segunda {
+    width: 93%;
+    margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
+    margin-top: 70px;
+
 }
- 
-@media (660px) {
-    .menu ul {
-        align-items: center;
-    }
+
+
+.fotinha {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;  /* para não deixar a imagem disorcida */
 }
+
+
+ /* WHATSAPP */
 
 .botao-wpp {
    display: flex;
@@ -86,112 +124,3 @@ header {
 
 
 
-/*Sobre mim*/
-
-.sobremim {
-    margin: 30px 30px 50px 30px;
-    border: 10px double rgb(110, 110, 110);
-    border-radius: 30px;
-    display: flex;  
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-
-.foto {
-    max-width: 350px;           /* DEIXAR A IMAGEM RESPONSIVA*/
-    width: 100%;                /* DEIXAR A IMAGEM RESPONSIVA*/
-    min-height: auto;                /* DEIXAR A IMAGEM RESPONSIVA*/
-    border-radius: 300PX;
-}   
-
-.foto-sobremim {
-    margin: 30px;
-}
-
-.descricao-sobremim{
-    margin: 30px;
-    align-self: center;
-    width: 800px;
-    flex-wrap: wrap;
-}
-
-.descricao-sobremim p {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 1.18em;
-}
-
-@media (880px) {
-
-    
-
-}
-/* Perguntas frequentes */
-
-
-.perguntasfrequentes {
-    margin: 30px 30px 50px 30px;
-    border-radius: 30px;
-    border: 10px double rgb(110, 110, 110);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column  ;
-    text-align: center;
-}
-
-.pergunta {
-    font-size: 1.25em;
-}
-
-.question {
-    border-bottom: 1px solid #ccc;
-    padding: 10px 0
-  }
-  
-  .question input,
-  .question .answer { display: none }
-  
-  .question label {
-    display: inline-block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    width: 100%
-  }
-  
-  .question input:checked ~ .answer {
-    display: block
-  }
-
-
-
-  /* Contato */
-
-  .contato {
-      margin: 30px 30px 50px 30px;
-      border: 10px double rgb(110, 110, 110);
-      border-radius: 30px;
-      display: flex;
-      flex-wrap: wrap;
-  }
-
-  .contatogeral {
-      padding: 20px;
-      width: 100%;
-    text-align: center;
-}
-  
-
-
-
-  /*margin: 30px 30px 50px 30px;
-border: double 10px rgb(110, 110, 110);
-display: flex;
-border-radius: 30px;
-flex-direction: column ;
-text-align: center;
-
-
- margin: 30px 30px 50px 30px;
-    border: 10px double rgb(110, 110, 110);
-    border-radius: 30px;*/
